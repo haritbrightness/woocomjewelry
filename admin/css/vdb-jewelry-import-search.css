@@ -1,0 +1,2371 @@
+@font-face {
+    font-family: 'jweller';
+    src: url('../fonts/jweller.eot?bizg3s');
+    src: url('../fonts/jweller.eot?bizg3s#iefix') format('embedded-opentype'), url('../fonts/jweller.ttf?bizg3s') format('truetype'), url('../fonts/jweller.woff?bizg3s') format('woff'), url('../fonts/jweller.svg?bizg3s#jweller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'jweller' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#vdb_js_clear_search {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.icon-wedding-ring1:before {
+    content: "\e966";
+}
+
+.icon-wedding-ring-1:before {
+    content: "\e967";
+}
+
+.icon-wedding-ring-2:before {
+    content: "\e968";
+}
+
+.icon-wedding-ring-3:before {
+    content: "\e969";
+}
+
+.icon-wedding-ring-4:before {
+    content: "\e96a";
+}
+
+.icon-wedding-ring-5:before {
+    content: "\e96b";
+}
+
+.icon-wedding-ring-6:before {
+    content: "\e96c";
+}
+
+.icon-wedding-ring-7:before {
+    content: "\e96d";
+}
+
+.icon-wedding-ring-8:before {
+    content: "\e96e";
+}
+
+.icon-wedding-ring-9:before {
+    content: "\e96f";
+}
+
+.icon-wedding-ring-10:before {
+    content: "\e970";
+}
+
+.icon-wedding-ring-11:before {
+    content: "\e971";
+}
+
+.icon-wedding-ring-12:before {
+    content: "\e972";
+}
+
+.icon-wedding-ring-13:before {
+    content: "\e973";
+}
+
+.icon-wedding-ring-14:before {
+    content: "\e974";
+}
+
+.icon-wedding-ring-15:before {
+    content: "\e975";
+}
+
+.icon-wedding-ring-16:before {
+    content: "\e976";
+}
+
+.icon-wedding-ring-17:before {
+    content: "\e977";
+}
+
+.icon-wedding-ring-18:before {
+    content: "\e978";
+}
+
+.icon-wedding-ring-19:before {
+    content: "\e979";
+}
+
+.icon-wedding-ring-20:before {
+    content: "\e97a";
+}
+
+.icon-wedding-ring-21:before {
+    content: "\e97b";
+}
+
+.icon-wedding-ring-22:before {
+    content: "\e97c";
+}
+
+.icon-wedding-ring-23:before {
+    content: "\e97d";
+}
+
+.icon-wedding-ring-24:before {
+    content: "\e97e";
+}
+
+.icon-wedding-ring-25:before {
+    content: "\e97f";
+}
+
+.icon-wedding-ring-26:before {
+    content: "\e980";
+}
+
+.icon-wedding-ring-27:before {
+    content: "\e981";
+}
+
+.icon-wedding-ring-28:before {
+    content: "\e982";
+}
+
+.icon-wedding-ring-29:before {
+    content: "\e983";
+}
+
+.icon-wedding-ring-30:before {
+    content: "\e984";
+}
+
+.icon-wedding-ring-31:before {
+    content: "\e985";
+}
+
+.icon-wedding-ring-32:before {
+    content: "\e986";
+}
+
+.icon-wedding-ring-33:before {
+    content: "\e987";
+}
+
+.icon-wedding-ring-34:before {
+    content: "\e988";
+}
+
+.icon-wedding-ring-35:before {
+    content: "\e989";
+}
+
+.icon-wedding-ring-36:before {
+    content: "\e98a";
+}
+
+.icon-wedding-ring-37:before {
+    content: "\e98b";
+}
+
+.icon-wedding-ring-38:before {
+    content: "\e98c";
+}
+
+.icon-wedding-ring-39:before {
+    content: "\e98d";
+}
+
+.icon-wedding-ring-40:before {
+    content: "\e98e";
+}
+
+.icon-wedding-ring-41:before {
+    content: "\e98f";
+}
+
+.icon-wedding-ring-42:before {
+    content: "\e990";
+}
+
+.icon-wedding-ring-43:before {
+    content: "\e991";
+}
+
+.icon-wedding-ring-44:before {
+    content: "\e992";
+}
+
+.icon-wedding-ring-45:before {
+    content: "\e993";
+}
+
+.icon-wedding-rings:before {
+    content: "\e994";
+}
+
+.icon-wedding-rings-1:before {
+    content: "\e995";
+}
+
+.icon-weddin-ring:before {
+    content: "\e996";
+}
+
+.icon-weding-ring:before {
+    content: "\e997";
+}
+
+.icon-bracelet2:before {
+    content: "\e998";
+}
+
+.icon-bracelet-11:before {
+    content: "\e999";
+}
+
+.icon-bracelet-2:before {
+    content: "\e99a";
+}
+
+.icon-collar:before {
+    content: "\e99b";
+}
+
+.icon-crown4:before {
+    content: "\e99c";
+}
+
+.icon-crown-1:before {
+    content: "\e99d";
+}
+
+.icon-crown-2:before {
+    content: "\e99e";
+}
+
+.icon-crown-3:before {
+    content: "\e99f";
+}
+
+.icon-diamond1:before {
+    content: "\e9a0";
+}
+
+.icon-diamond-1:before {
+    content: "\e9a1";
+}
+
+.icon-diamond-2:before {
+    content: "\e9a2";
+}
+
+.icon-diamond-3:before {
+    content: "\e9a3";
+}
+
+.icon-diamond-4:before {
+    content: "\e9a4";
+}
+
+.icon-diamond-5:before {
+    content: "\e9a5";
+}
+
+.icon-diamond-6:before {
+    content: "\e9a6";
+}
+
+.icon-earrings16:before {
+    content: "\e9a7";
+}
+
+.icon-earrings-11:before {
+    content: "\e9a8";
+}
+
+.icon-earrings-21:before {
+    content: "\e9a9";
+}
+
+.icon-earrings-31:before {
+    content: "\e9aa";
+}
+
+.icon-earrings-41:before {
+    content: "\e9ab";
+}
+
+.icon-earrings-51:before {
+    content: "\e9ac";
+}
+
+.icon-earrings-61:before {
+    content: "\e9ad";
+}
+
+.icon-earrings-7:before {
+    content: "\e9ae";
+}
+
+.icon-earrings-8:before {
+    content: "\e9af";
+}
+
+.icon-earrings-9:before {
+    content: "\e9b0";
+}
+
+.icon-earrings-10:before {
+    content: "\e9b1";
+}
+
+.icon-earrings-111:before {
+    content: "\e9b2";
+}
+
+.icon-earrings-12:before {
+    content: "\e9b3";
+}
+
+.icon-earrings-13:before {
+    content: "\e9b4";
+}
+
+.icon-chain1:before {
+    content: "\e9b5";
+}
+
+.icon-diamond-7:before {
+    content: "\e9b6";
+}
+
+.icon-diamond-ring1:before {
+    content: "\e9b7";
+}
+
+.icon-mannequin:before {
+    content: "\e9b8";
+}
+
+.icon-medal:before {
+    content: "\e9b9";
+}
+
+.icon-necklace10:before {
+    content: "\e9ba";
+}
+
+.icon-necklace-11:before {
+    content: "\e9bb";
+}
+
+.icon-necklace-21:before {
+    content: "\e9bc";
+}
+
+.icon-necklace-31:before {
+    content: "\e9bd";
+}
+
+.icon-necklace-41:before {
+    content: "\e9be";
+}
+
+.icon-necklace-51:before {
+    content: "\e9bf";
+}
+
+.icon-necklace-6:before {
+    content: "\e9c0";
+}
+
+.icon-necklace-7:before {
+    content: "\e9c1";
+}
+
+.icon-necklace-8:before {
+    content: "\e9c2";
+}
+
+.icon-necklace-9:before {
+    content: "\e9c3";
+}
+
+.icon-necklace-10:before {
+    content: "\e9c4";
+}
+
+.icon-necklace-111:before {
+    content: "\e9c5";
+}
+
+.icon-necklace-12:before {
+    content: "\e9c6";
+}
+
+.icon-necklace-13:before {
+    content: "\e9c7";
+}
+
+.icon-necklace-14:before {
+    content: "\e9c8";
+}
+
+.icon-necklace-15:before {
+    content: "\e9c9";
+}
+
+.icon-ring3:before {
+    content: "\e9ca";
+}
+
+.icon-engagement-ring:before {
+    content: "\e9cb";
+}
+
+.icon-smartWatches:before {
+    content: "\e9cc";
+}
+
+.icon-Watches4:before {
+    content: "\e9cd";
+}
+
+.icon-Watches-1:before {
+    content: "\e9ce";
+}
+
+.icon-Watches-2:before {
+    content: "\e9cf";
+}
+
+.icon-Watches-3:before {
+    content: "\e9d0";
+}
+
+.icon-Watches-4:before {
+    content: "\e9d1";
+}
+
+.icon-Watches-5:before {
+    content: "\e9d2";
+}
+
+.icon-wedding-ring:before {
+    content: "\e9d3";
+}
+
+.icon-bangle:before {
+    content: "\e900";
+}
+
+.icon-pendant:before {
+    content: "\e901";
+}
+
+.icon-bangle1:before {
+    content: "\e902";
+}
+
+.icon-pendant-1:before {
+    content: "\e903";
+}
+
+.icon-beads:before {
+    content: "\e904";
+}
+
+.icon-shopping-bag:before {
+    content: "\e905";
+}
+
+.icon-bracelet:before {
+    content: "\e906";
+}
+
+.icon-bangle2:before {
+    content: "\e907";
+}
+
+.icon-bracelet-1:before {
+    content: "\e908";
+}
+
+.icon-gem:before {
+    content: "\e909";
+}
+
+.icon-ring:before {
+    content: "\e90a";
+}
+
+.icon-gem1:before {
+    content: "\e90b";
+}
+
+.icon-gems:before {
+    content: "\e90c";
+}
+
+.icon-diamond:before {
+    content: "\e90d";
+}
+
+.icon-rings:before {
+    content: "\e90e";
+}
+
+.icon-box:before {
+    content: "\e90f";
+}
+
+.icon-gem2:before {
+    content: "\e910";
+}
+
+.icon-gem3:before {
+    content: "\e911";
+}
+
+.icon-medallion:before {
+    content: "\e912";
+}
+
+.icon-gem4:before {
+    content: "\e913";
+}
+
+.icon-medallion-1:before {
+    content: "\e914";
+}
+
+.icon-box-1:before {
+    content: "\e915";
+}
+
+.icon-crown:before {
+    content: "\e916";
+}
+
+.icon-crown1:before {
+    content: "\e917";
+}
+
+.icon-necklace:before {
+    content: "\e918";
+}
+
+.icon-chain:before {
+    content: "\e919";
+}
+
+.icon-gem5:before {
+    content: "\e91a";
+}
+
+.icon-necklace1:before {
+    content: "\e91b";
+}
+
+.icon-woman:before {
+    content: "\e91c";
+}
+
+.icon-clock:before {
+    content: "\e91d";
+}
+
+.icon-necklace2:before {
+    content: "\e91e";
+}
+
+.icon-monocle:before {
+    content: "\e91f";
+}
+
+.icon-necklace3:before {
+    content: "\e920";
+}
+
+.icon-crown2:before {
+    content: "\e921";
+}
+
+.icon-necklace4:before {
+    content: "\e922";
+}
+
+.icon-bracelet1:before {
+    content: "\e923";
+}
+
+.icon-necklace-1:before {
+    content: "\e924";
+}
+
+.icon-necklace5:before {
+    content: "\e925";
+}
+
+.icon-necklace-2:before {
+    content: "\e926";
+}
+
+.icon-magnifying-glass:before {
+    content: "\e927";
+}
+
+.icon-necklace6:before {
+    content: "\e928";
+}
+
+.icon-magnifying-glass-1:before {
+    content: "\e929";
+}
+
+.icon-necklace7:before {
+    content: "\e92a";
+}
+
+.icon-earrings:before {
+    content: "\e92b";
+}
+
+.icon-necklace8:before {
+    content: "\e92c";
+}
+
+.icon-necklace9:before {
+    content: "\e92d";
+}
+
+.icon-shop:before {
+    content: "\e92e";
+}
+
+.icon-rings1:before {
+    content: "\e92f";
+}
+
+.icon-smartphone:before {
+    content: "\e930";
+}
+
+.icon-diamond-ring:before {
+    content: "\e931";
+}
+
+.icon-monitor:before {
+    content: "\e932";
+}
+
+.icon-pearl:before {
+    content: "\e933";
+}
+
+.icon-shopping-bag1:before {
+    content: "\e934";
+}
+
+.icon-cufflinks:before {
+    content: "\e935";
+}
+
+.icon-ring1:before {
+    content: "\e936";
+}
+
+.icon-location:before {
+    content: "\e937";
+}
+
+.icon-ring2:before {
+    content: "\e938";
+}
+
+.icon-earrings1:before {
+    content: "\e939";
+}
+
+.icon-ring-1:before {
+    content: "\e93a";
+}
+
+.icon-earrings2:before {
+    content: "\e93b";
+}
+
+.icon-pendant-2:before {
+    content: "\e93c";
+}
+
+.icon-earrings3:before {
+    content: "\e93d";
+}
+
+.icon-holder:before {
+    content: "\e93e";
+}
+
+.icon-earrings4:before {
+    content: "\e93f";
+}
+
+.icon-shopping-cart:before {
+    content: "\e940";
+}
+
+.icon-earrings5:before {
+    content: "\e941";
+}
+
+.icon-earrings-1:before {
+    content: "\e942";
+}
+
+.icon-earrings6:before {
+    content: "\e943";
+}
+
+.icon-necklace-3:before {
+    content: "\e944";
+}
+
+.icon-earrings7:before {
+    content: "\e945";
+}
+
+.icon-earrings-2:before {
+    content: "\e946";
+}
+
+.icon-earrings8:before {
+    content: "\e947";
+}
+
+.icon-necklace-4:before {
+    content: "\e948";
+}
+
+.icon-earrings9:before {
+    content: "\e949";
+}
+
+.icon-gift-box:before {
+    content: "\e94a";
+}
+
+.icon-discount:before {
+    content: "\e94b";
+}
+
+.icon-earrings10:before {
+    content: "\e94c";
+}
+
+.icon-earrings11:before {
+    content: "\e94d";
+}
+
+.icon-jewel:before {
+    content: "\e94e";
+}
+
+.icon-crown3:before {
+    content: "\e94f";
+}
+
+.icon-ring-2:before {
+    content: "\e950";
+}
+
+.icon-earrings12:before {
+    content: "\e951";
+}
+
+.icon-jeweler:before {
+    content: "\e952";
+}
+
+.icon-earrings13:before {
+    content: "\e953";
+}
+
+.icon-gem6:before {
+    content: "\e954";
+}
+
+.icon-caliper:before {
+    content: "\e955";
+}
+
+.icon-earrings14:before {
+    content: "\e956";
+}
+
+.icon-earrings-3:before {
+    content: "\e957";
+}
+
+.icon-Watches:before {
+    content: "\e958";
+}
+
+.icon-jeweler-1:before {
+    content: "\e959";
+}
+
+.icon-Watches1:before {
+    content: "\e95a";
+}
+
+.icon-earrings-4:before {
+    content: "\e95b";
+}
+
+.icon-pocket-Watches:before {
+    content: "\e95c";
+}
+
+.icon-earrings-5:before {
+    content: "\e95d";
+}
+
+.icon-Watches2:before {
+    content: "\e95e";
+}
+
+.icon-earrings-6:before {
+    content: "\e95f";
+}
+
+.icon-Watches3:before {
+    content: "\e960";
+}
+
+.icon-earrings15:before {
+    content: "\e961";
+}
+
+.icon-necklace-5:before {
+    content: "\e962";
+}
+
+.icon-gold-ingots:before {
+    content: "\e963";
+}
+
+.icon-price-tag:before {
+    content: "\e964";
+}
+
+.icon-wallet:before {
+    content: "\e965";
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    background-color: #d3d3d3;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container .content {
+    display: none;
+    padding: 5px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard #wpfooter {
+    /* position: relative; */
+    margin-left: 160px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .accordion-wrapper select {
+    padding: 0 25px 0px 8px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .accordion-wrapper select:focus {
+    border-color: #804294;
+    color: #804294;
+    box-shadow: 0 0 0 1px #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings {
+    padding: 0px 15px 0px 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .button-primary {
+    border-color: #804294;
+    color: #fff;
+    background: #804294;
+    padding: 10px 15px;
+    line-height: normal;
+    text-decoration: none;
+    border: 2px solid #804294;
+    font-size: 14px;
+    border-radius: 35px;
+    font-weight: 500;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .button-primary:hover,
+.toplevel_page_vdb-jewelry-import-dashboard .button-primary:focus {
+    background-color: #fff;
+    border-color: #804294;
+    color: #804294;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap {
+    padding: 15px;
+    border-radius: 0px 5px 5px 10px;
+    margin: 0px 0px 15px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap.form-bg {
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap.form-table-wrapper {
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap.form-table-wrapper .form-table-half {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgb(63 63 68 / 15%);
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap h1 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub li {
+    line-height: normal;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub a {
+    border: 2px solid #804294;
+    padding: 10px 15px;
+    border-bottom: 0;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #804294;
+    display: block;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub a.current {
+    background-color: #804294;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub a:hover,
+.toplevel_page_vdb-jewelry-import-dashboard .subsubsub a:focus {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    background-color: #804294;
+    color: #fff;
+}
+
+.main-wrap {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .card-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card {
+    width: 75%;
+    float: left;
+    padding: 15px 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card {
+    width: 24%;
+    float: right;
+    padding: 0;
+    overflow: hidden;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper {
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=checkbox],
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=radio] {
+    margin: 00px 10px 00px 5px;
+    line-height: normal;
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    padding: 0!important;
+    border: 1px solid #804294;
+    border-radius: 4px;
+    background: #fff;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=radio] {
+    border-radius: 50%;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=checkbox]:focus,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=radio]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=checkbox]:before,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=radio]:before {
+    height: 14px;
+    width: 14px;
+    background: #804294;
+    content: '';
+    border-radius: 3px;
+    margin: 3px;
+    padding: 0px;
+    line-height: normal;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings input[type=radio]:before {
+    border-radius: 50%;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .total-result-txt {
+    color: #804294;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .btns-group {
+    border: 2px solid #804294;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px 3px 3px 8px;
+    border-radius: 35px;
+    font-size: 15px;
+    color: #804294;
+    font-weight: 500;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .btns-group .btn {
+    padding: 6px 15px;
+    margin-left: 10px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .btns-group .btn:focus {
+    box-shadow: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn {
+    padding: 10px 15px;
+    line-height: normal;
+    text-decoration: none;
+    border: 2px solid #804294;
+    font-size: 14px;
+    border-radius: 35px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn.btn-perple {
+    border-color: #804294;
+    color: #fff;
+    background: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn.btn-perple:hover {
+    background-color: #fff;
+    border-color: #804294;
+    color: #804294;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn.inverse {
+    border-color: #23282d;
+    color: #23282d;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn.inverse:hover,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .btn.inverse:focus {
+    background-color: #23282d;
+    border-color: #23282d;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin: 15px 0px;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner {
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    min-height: 320px;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner:hover {
+    box-shadow: 0px 3px 5px rgb(70 70 70 / 25%);
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner:hover .search-result-image {
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-image {
+    display: flex;
+    flex: 1 auto;
+    align-items: center;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-image a {
+    text-decoration: none;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-image a:hover,
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-image a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-image img {
+    max-width: 200px;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text-right {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text-left .product-name,
+.general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text-left .product-price {
+    text-align: center;
+}
+
+.general_settings .jewelry_loader .loader-circle {
+    color: #804294;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
+    z-index: 11;
+}
+
+.general_settings .jewelry_loader.center {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 30%;
+}
+
+.general_settings .jewelry_loader.center:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 25%);
+}
+
+.general_settings .jewelry_loader.center .loader-circle {
+    left: 0;
+    right: 15%;
+    top: 50%;
+    bottom: 0;
+    margin: 0px auto;
+    position: fixed;
+}
+
+@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .title-txt {
+    padding: 14px;
+    text-align: center;
+    line-height: normal;
+    background-color: #804294;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container {
+    border: none;
+    overflow: hidden;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px 00px;
+    border-radius: 5px;
+    color: #804294;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header span {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    background: #804294;
+    color: #fff;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1px;
+    line-height: 22px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header span.icon-plus:after {
+    background-image: url('../images/plus-small.png');
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header span.icon-minus:after {
+    background-image: url('../images/minus-small.png');
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header .icon-img {
+    width: 25px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header .icon-img i {
+    font-size: 28px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .inner-box {
+    margin: 5px 5px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 0;
+    max-width: 100%;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type {
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type.active,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type:hover {
+    background: #804294;
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type:hover .btn-icon:before,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type.active .btn-icon:before {
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .jewelry_inputs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon {
+    font-family: 'jweller';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    flex: 1 auto;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type label {
+    display: flex;
+    flex: 1 auto;
+    line-height: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon:before {
+    font-size: 40px;
+    max-height: 50px;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.engagment_rings:before {
+    content: "\e9cb";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Wedding_Bands:before {
+    content: "\e900";
+    position: relative;
+    top: 3px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Fashion_Women:before {
+    content: "\e9d3";
+    position: relative;
+    left: 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Bracelets:before {
+    content: "\e907";
+    position: relative;
+    top: 3px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.earrings:before {
+    content: "\e9ad";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Fashion_Men:before {
+    content: "\e9ca";
+    position: relative;
+    left: 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Necklaces:before {
+    content: "\e92a";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Pearl_Jewelry:before {
+    content: "\e933";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Watches:before {
+    content: "\e9d2";
+    position: relative;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .jewelry-type .btn-icon.Accessories:before {
+    content: "\e90f";
+    position: relative;
+    top: 8px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .icon-img i {
+    font-style: normal;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.engagment_rings:before {
+    content: "\e9cb";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Wedding_Bands:before {
+    content: "\e900";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Fashion_Women:before {
+    content: "\e9d3";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Bracelets:before {
+    content: "\e907";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.earrings:before {
+    content: "\e9ad";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Fashion_Men:before {
+    content: "\e9ca";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Necklaces:before {
+    content: "\e92a";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Pearl_Jewelry:before {
+    content: "\e933";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header .btn-icon.Watches:before {
+    content: "\e9d2";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header {
+    content: "\e90f";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list {
+    width: 100%;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container {
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    margin: 10px 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .header {
+    margin: 00px;
+    border-radius: 5px 5px 0px 0px;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 15px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .container .content {
+    padding: 0;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style {
+    line-height: 40px;
+    display: flex;
+    border-top: 1px solid #dbcde0;
+    background-color: #fff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 7px 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style:hover,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.active {
+    background-color: rgb(128 66 148);
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.active .sub-icon,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style:hover .sub-icon {
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.active .custom-checkbox,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style:hover .custom-checkbox {
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style>div {
+    display: flex;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding: 0px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size:hover,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size.active {
+    background-color: #ededec;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size:hover label,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size.active label {
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types {
+    height: 60px;
+    width: 33.33%;
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #ddd;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types:first-child {
+    border: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .custom-checkbox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .custom-checkbox .jewelry_inputs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    opacity: 1;
+    border: none;
+    margin: 0px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .sub-icon {
+    z-index: 1;
+    color: #804294;
+    margin: 10px 0px 5px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .custom-checkbox .jewelry_inputs:before {
+    height: 100%;
+    width: 100%;
+    background: #ededec;
+    content: '';
+    border-radius: 3px;
+    margin: 0;
+    padding: 0px;
+    line-height: normal;
+    border-radius: 0 !important;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .custom-checkbox .jewelry_inputs:checked:before {
+    background-color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .custom-checkbox label {
+    z-index: 1;
+    margin: 0px;
+    position: absolute;
+    bottom: 5px;
+    line-height: normal;
+    font-size: 12px;
+    font-weight: 500;
+    height: 100%;
+    bottom: 6px;
+    top: unset;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types.active .sub-icon {
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types.active label {
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .sub-icon {
+    font-family: 'jweller';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .sub-action-btn {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .custom-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 16px;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .custom-checkbox label {
+    width: 100%;
+    line-height: normal;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-solitaire:before {
+    content: "\e973";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-three-stone:before {
+    content: "\e974";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-side-stone:before {
+    content: "\e96b";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-halo:before {
+    content: "\e9a2";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-gemstones:before {
+    content: "\e9a6";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-vintage:before {
+    content: "\e981";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .engagment_rings-types .sub-icon .engagment_rings-other:before {
+    content: "\e982";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-diamond:before {
+    content: "\e97f";
+    position: relative;
+    top: 3px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-plain:before {
+    content: "\e998";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-eternity:before {
+    content: "\e907";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-men:before {
+    content: "\e999";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-stacking:before {
+    content: "\e99a";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-gemstones:before {
+    content: "\e908";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Wedding_Bands-types .sub-icon span.Wedding_Bands-other:before {
+    content: "\e999";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Bracelets-types .sub-icon span.path1:before {
+    content: "\e902";
+    top: 5px;
+    position: relative;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-studs:before {
+    content: "\e9a7";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-fashion-studs:before {
+    content: "\e9a9";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-drops:before {
+    content: "\e9ae";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-chandeliers:before {
+    content: "\e9a8";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-hoops:before {
+    content: "\e9ac";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .earrings-types .sub-icon .earrings-other:before {
+    content: "\e9b3";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-pendants:before {
+    content: "\e918";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-tennis:before {
+    content: "\e925";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-lariat:before {
+    content: "\e928";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-choker:before {
+    content: "\e92a";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-wreath:before {
+    content: "\e92c";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Necklaces-types .sub-icon span.Necklaces-other:before {
+    content: "\e92d";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-single-strand-necklace:before {
+    content: "\e9c5";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-fashion-necklace:before {
+    content: "\e9c2";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-bracelet:before {
+    content: "\e99a";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-earrings:before {
+    content: "\e941";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-pendants:before {
+    content: "\e901";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-rings:before {
+    content: "\e9b7";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Pearl_Jewelry-types .sub-icon span.Pearl_Jewelry-other:before {
+    content: "\e905";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-pendants:before {
+    content: "\e9cf";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-tennis:before {
+    content: "\e9d0";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-lariat:before {
+    content: "\e9d2";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-choker:before {
+    content: "\e9cd";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-men:before {
+    content: "\e9ce";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-women:before {
+    content: "\e9d1";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .Watches-types .sub-icon span.Watches-mid:before {
+    content: "\e9d2";
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li {
+    margin: 5px 5px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%);
+    width: 82px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #fff;
+    color: #804294;
+    border: 1px solid #804294;
+    flex: 1 auto;
+    max-width: 100px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li.active,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li:hover {
+    background: #804294;
+    color: #fff;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types {
+    padding: 6px 5px 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types .ring-import-shape-box-inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    text-align: center;
+    height: 60px;
+    margin: 0;
+    width: 100%;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types .sub-action-btn .ring-import-shape-box-inner .metal-shape {
+    width: 38px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 100%;
+    background-image: linear-gradient( 255deg, #ebebeb, #e8e8e8 -2%, #676363);
+    border: 1px solid #888687;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types .sub-action-btn .ring-import-shape-box-inner .metal-shape.yellow-gold {
+    background-image: linear-gradient( 7deg, #f6eab2 7%, #bc8e0c 140%);
+    border-color: #bc8e0c;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types .sub-action-btn .ring-import-shape-box-inner .metal-shape.rose-gold {
+    background-image: linear-gradient( 7deg, #ffd8d8 7%, #e86c63 160%);
+    border-color: #e86c63;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li .metal-types .jewelry_inputs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-min-max,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-min-max span,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values span {
+    font-size: 14px;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values span {
+    width: 10%;
+    text-align: center;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values div span {
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    font-size: 14px;
+    color: #292735;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values div input {
+    width: 100%;
+    height: 35px;
+    border: 2px solid;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 0px;
+    color: #000;
+    border-color: #804294;
+    border-radius: 5px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values div input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .slider-values div {
+    width: 40%;
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .price-error,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .budget-range-container .price-to-error {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    color: #f96666;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands.brand-list-types .brand-list .list-style.active .brand-names label,
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands.brand-list-types .brand-list .list-style:hover .brand-names label {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(128 66 148);
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands.brand-list-types .brand-list .list-style .brand-names {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: auto;
+    line-height: normal;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands.brand-list-types .brand-list .list-style .brand-names label {
+    display: flex;
+    flex: 1;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #804294;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands .jewelry_inputs option {
+    padding: 5px 5px;
+}
+
+.toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.brands .jewelry_inputs:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.general_settings .search-containt-card .search-result-grid-wrapper .no-record-founds {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 20px;
+    width: 100%;
+    color: #804294;
+    background: #f1f1f1;
+    margin: 15px 00px 5px;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.7;
+}
+
+span.added {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    background: #804294;
+    padding: 5px 15px 7px;
+    border-radius: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media (max-width: 1500px) {
+    .general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text {
+        padding: 10px 5px;
+    }
+    .general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box .search-result-grid-inner .search-result-block-text-left {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        margin-bottom: 15px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .inner-box {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 5px 5px 5px 5px;
+        max-width: 100%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .box-list-2 .box-list-2-li {
+        margin: 5px 3px 8px;
+        width: 85px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .custom-checkbox label {
+        font-size: 12px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header .icon-img {
+        margin-right: 5px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header .icon-img i {
+        font-size: 24px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container .header {
+        font-size: 14px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .custom-checkbox label {
+        font-size: 12px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .Watches-types .sub-icon {
+        margin: 15px 0px 0;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .sub-icon {
+        font-size: 18px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style.Watches_size .custom-checkbox label {
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .container.types .list-box .inner-box {
+        width: 120px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card {
+        width: 100%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card {
+        width: 100%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-side-card .form-table-wrapper .sub-menu-list .list-style .sub-action-btn {
+        width: 92%;
+    }
+}
+
+@media (max-width: 550px) {
+    .general_settings .search-containt-card .search-result-grid-wrapper .search-result-grid-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .btns-group {
+        padding: 10px 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .total-result-txt {
+        margin: 15px 0px 15px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip .btns-group .btn {
+        padding: 6px 15px;
+        margin-left: 0;
+        width: 100%;
+        margin: 3px 0px;
+        text-align: center;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .subsubsub {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .subsubsub li {
+        line-height: normal;
+        width: 100%;
+        margin: 0;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .subsubsub a {
+        margin-bottom: 5px;
+        border-bottom: 2px solid;
+        border-radius: 5px;
+        margin-right: 0;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .wrap {
+        padding: 15px;
+        border-radius: 5px;
+        margin: 0px 0px 15px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card {
+        padding: 15px 15px;
+    }
+    .toplevel_page_vdb-jewelry-import-dashboard .general_settings .search-containt-card .top-d-strip {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

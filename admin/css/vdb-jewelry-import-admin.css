@@ -1,0 +1,633 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    background: #f1f1f1;
+    color: #444;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-wrapper .toggle,
+.accordion-wrapper .toggle-single,
+.accordion-wrapper .no-toggle {
+    position: relative;
+    padding: 12px 0 14px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #804294;
+    font-weight: 600;
+}
+
+.accordion-wrapper .toggle:before {
+    content: "";
+    background: url(../../admin/images/down-arrow.svg) no-repeat center center;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all ease 400ms;
+}
+
+.accordion-wrapper.open .toggle:before {
+    transform: rotate(180deg);
+    transform-origin: 50% 24%;
+}
+
+.accordion-wrapper .submit {
+    display: inline-block;
+}
+
+.general_settings {
+    padding: 25px;
+}
+
+.button-primary {
+    background: #804294;
+    border-color: #804294;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.rb-landing-upl-img {
+    max-width: 400px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fafafa;
+}
+
+.accordion-wrapper input[type="text"],
+.accordion-wrapper select,
+.accordion-wrapper input[type="number"] {
+    height: 30px;
+    padding: 0 8px;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-table {
+    border-collapse: collapse;
+    margin-top: .5em;
+    width: 100%;
+    clear: both;
+}
+
+.form-wrap p,
+p.description {
+    margin: 2px 0 5px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.accordion-wrapper .form-table td,
+.accordion-wrapper .form-table th {
+    padding: 5px 10px 18px;
+}
+
+.regular-text {
+    width: 25em;
+}
+
+.form-table-half .regular-text {
+    width: auto;
+}
+
+.wrap {
+    background: #804294;
+    overflow: hidden;
+    clear: both;
+    padding: 25px;
+}
+
+.general_settings h1 {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.general_settings input[type=color] {
+    padding: 0px;
+    width: 28px;
+    height: 28px;
+}
+
+p.submit {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.description a {
+    color: #804294;
+}
+
+.switch input:checked+.slider {
+    background-color: #804294;
+}
+
+.switch input:focus+.slider {
+    box-shadow: 0 0 1px #804294;
+}
+
+.switch input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.general_settings form {
+    background: #e9e9eb;
+    padding: 13px 25px 25px;
+}
+
+.form-table-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-table-half {
+    width: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    padding: 20px;
+}
+
+.form-bg {
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    padding: 20px;
+}
+
+.form-table-half:last-child {
+    width: 48%;
+}
+
+.wrap.accordion-wrapper,
+.wrap.form-table-wrapper {
+    background: #e9e9eb;
+}
+
+
+/***** On-boarding CSS Start *****/
+
+table.compatibility-checker-table {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+table.compatibility-checker-table a {
+    color: #fff;
+}
+
+table.compatibility-checker-table .fa-check::before {
+    color: #73b541;
+}
+
+table.compatibility-checker-table .fa-times::before {
+    color: #ad1616;
+}
+
+.onboarding-step-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 20px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.onboarding-step-left,
+.onboarding-step-right {
+    width: 50%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.onboarding-step-right {
+    padding-left: 20px;
+}
+
+.onboarding-step-bg {
+    background: #804294;
+    padding: 20px;
+    width: 100%;
+}
+
+.onboarding-step-right .onboarding-step-bg {
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    background: #fff;
+}
+
+.onboarding-step-left h2 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 15px;
+}
+
+.onboarding-step-right h2,
+.onboarding-step-full-heading h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 15px;
+}
+
+.onboarding-step-left p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.onboarding-image-block-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.onboarding-image-block {
+    width: 48%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid #804294;
+    border-radius: 5px;
+}
+
+.onboarding-step-button {
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.onboarding-step-button button {
+    font-size: 14px;
+    line-height: 20px;
+    background: #804294;
+    padding: 8px 17px 7px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.compatibility-checker-box {
+    margin-top: 30px;
+}
+
+.compatibility-checker-box:first-child {
+    margin-top: 0;
+}
+
+.onboarding-step-button button:hover {
+    background: #000;
+    cursor: pointer;
+}
+
+.onboarding-step-left h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.onboarding-step-left ul {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.onboarding-step-left ul li,
+.onboarding-step-left ol li {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.onboarding-step-right ul,
+.onboarding-step-right ol {
+    margin: 15px 0 0;
+    padding: 0 0 0 18px;
+}
+
+.onboarding-step-full {
+    width: 100%;
+}
+
+.compatibility-checker-box i {
+    font-size: 19px;
+    width: 25px;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.onboarding-step-full-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.onboarding-field-wrapper {
+    text-align: center;
+}
+
+.onboarding-field {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 20px auto 0;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.apv-api-key {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.onboarding-field:first-child {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.onboarding-field-left {
+    width: 20%;
+    padding-right: 15px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.onboarding-field-right {
+    width: 80%;
+    text-align: left;
+    padding-left: 15px;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15);
+    padding: 25px;
+}
+
+.onboarding-field-right span {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+    color: #aaa;
+}
+
+.onboarding-field input[type="text"] {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    padding: 0 15px;
+    outline: none;
+    box-shadow: none;
+}
+
+.onboarding-field label {
+    display: block;
+    padding-top: 6px;
+    font-weight: 500;
+}
+
+h1 {
+    padding: 20px 20px 0;
+}
+
+.onboarding-step-1-top,
+.onboarding-step-1-bottom {
+    width: 100%;
+}
+
+.onboarding-step-1-bottom {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.onboarding-step-left ol {
+    color: #fff;
+}
+
+.onboarding-step-1-bottom .onboarding-image-block {
+    width: 33.3%;
+    margin: 0;
+    border: none;
+}
+
+.onboarding-step-1-bottom .onboarding-image-block img {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 5px 30px;
+}
+
+.onboarding-step-1-bottom .onboarding-image-block p {
+    font-weight: 500;
+    max-width: 209px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.onboarding-step-1-top .onboarding-first-top-left ul {
+    list-style: disc outside;
+    padding-left: 30px;
+}
+
+.onboarding-step-1-top ol {
+    margin-left: 30px;
+}
+
+.onboarding-step-1-top .onboarding-first-top-right a {
+    color: #fff;
+}
+
+.onboarding-step-1-top .onboarding-step-bg {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.onboarding-first-top-left {
+    padding-right: 15px;
+}
+
+.onboarding-first-top-right {
+    padding-left: 15em;
+}
+
+.onboarding-step-right ul {
+    list-style: disc outside;
+    padding-left: 30px;
+}
+
+
+/***** On-boarding CSS ends here *****/
+
+.jewelry-import-info-div .info-left {
+    float: left;
+}
+
+.jewelry-import-info-div .info-right {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
